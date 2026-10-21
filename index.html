@@ -1,39 +1,68 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feranmi Ige - Student Portfolio</title>
+    <title>Divya - Student Portfolio</title>
+
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Feranmi Ige</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <a class="navbar-brand" href="#hero">Divya</a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="text-center text-white d-flex align-items-center">
+    <section id="hero"
+             class="text-center text-white d-flex align-items-center">
         <div class="container">
             <h1>Welcome to My Portfolio Auto Deploy</h1>
-            <p>Hi, I’m Feranmi Ige, a passionate student exploring tech and innovation.</p>
-            <a href="#about" class="btn btn-primary">Learn More</a>
+
+            <p>
+                Hi, I'm Divya, an Application Development and
+                Delivery student at RRC Polytech. I enjoy building
+                creative applications, solving problems, and
+                learning new technologies.
+            </p>
+
+            <a href="#about" class="btn btn-primary">
+                Learn More
+            </a>
         </div>
     </section>
 
@@ -41,12 +70,41 @@
     <section id="about" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">About Me</h2>
-            <div class="row">
+
+            <div class="row align-items-center">
                 <div class="col-md-4 text-center">
-                    <img src="assets/profile.jpg" alt="Feranmi Ige" class="rounded-circle mb-3" width="200">
+                    <img src="assets/profile.jpg"
+                         alt="Divya's profile picture"
+                         class="rounded-circle mb-3"
+                         width="200"
+                         height="200"
+                         style="object-fit: cover;">
                 </div>
+
                 <div class="col-md-8">
-                    <p>I’m a computer science student with a love for coding, problem-solving, and building projects that make a difference. I enjoy learning new technologies and collaborating with others to turn ideas into reality.</p>
+                    <p>
+                        Hello! I'm Divya, currently studying
+                        Application Development and Delivery at
+                        RRC Polytech. I have a strong interest in
+                        software development, web applications,
+                        and exploring new technologies.
+                    </p>
+
+                    <p>
+                        I enjoy working with Python, JavaScript,
+                        TypeScript, React, and other development
+                        tools. Through my coursework, I have gained
+                        experience creating applications, working
+                        with databases, and using Git and GitHub
+                        to manage projects.
+                    </p>
+
+                    <p>
+                        My goal is to continue improving my
+                        technical skills, gain practical experience,
+                        and build applications that are useful
+                        and easy to use.
+                    </p>
                 </div>
             </div>
         </div>
@@ -55,33 +113,77 @@
     <!-- Projects Section -->
     <section id="projects" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-4">Projects</h2>
+            <h2 class="text-center mb-4">My Projects</h2>
+
             <div class="row">
+
+                <!-- Project 1 -->
                 <div class="col-md-4 mb-4">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Task Manager App</h5>
-                            <p class="card-text">A simple app to organize tasks, built with Python and Tkinter.</p>
+                            <h5 class="card-title">
+                                Donation Tracker
+                            </h5>
+
+                            <p class="card-text">
+                                A web application that allows users
+                                to record donations, manage donation
+                                details, and calculate total donations.
+                                This project helped me practice
+                                JavaScript, form validation, and
+                                working with data.
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Project 2 -->
                 <div class="col-md-4 mb-4">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Weather Dashboard</h5>
-                            <p class="card-text">A web app showing live weather data using JavaScript and APIs.</p>
+                            <h5 class="card-title">
+                                Employee Directory
+                            </h5>
+
+                            <p class="card-text">
+                                A React and TypeScript application
+                                that displays departments and
+                                employees. Users can add new
+                                employees to departments through
+                                a form with input validation.
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Project 3: Banking Application -->
                 <div class="col-md-4 mb-4">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">Banking Webapp</h5>
-                            <p class="card-text">This is a simple banking application with basic functions like withdraw, deposit and check balance</p>
-                            <a href="http://192.168.56.58:5090"target = "_blank">View Banking App</a>
+                            <h5 class="card-title">
+                                My Banking App Project
+                            </h5>
+
+                            <p class="card-text">
+                                A banking web application that
+                                demonstrates basic banking
+                                functions such as deposits,
+                                withdrawals, and checking balances.
+                                This application is deployed using
+                                Docker as part of my DevOps
+                                assignment.
+                            </p>
+
+                            <a href="http://192.168.56.53:5090"
+                               class="btn btn-primary"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View Banking App
+                            </a>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -89,33 +191,95 @@
     <!-- Skills Section -->
     <section id="skills" class="py-5">
         <div class="container">
-            <h2 class="text-center mb-4">Skills</h2>
-            <div class="row">
+            <h2 class="text-center mb-4">My Skills</h2>
+
+            <div class="row g-4">
+
                 <div class="col-md-6">
-                    <p>Python</p>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 80%;">80%</div>
-                    </div>
+                    <h5>Python</h5>
+                    <p>
+                        Programming fundamentals, application
+                        development, and problem-solving.
+                    </p>
                 </div>
+
                 <div class="col-md-6">
-                    <p>HTML/CSS</p>
-                    <div class="progress">
-                        <div class="progress-bar" style="width: 90%;">90%</div>
-                    </div>
+                    <h5>HTML & CSS</h5>
+                    <p>
+                        Creating responsive and user-friendly
+                        web pages.
+                    </p>
                 </div>
+
+                <div class="col-md-6">
+                    <h5>JavaScript & TypeScript</h5>
+                    <p>
+                        Building interactive websites and
+                        developing application functionality.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>React</h5>
+                    <p>
+                        Creating reusable components and
+                        managing application state.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>Git & GitHub</h5>
+                    <p>
+                        Version control, managing repositories,
+                        and collaborating on projects.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <h5>Docker & DevOps</h5>
+                    <p>
+                        Learning containerization, virtual
+                        machines, networking, and application
+                        deployment.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Contact Footer -->
-    <footer id="contact" class="bg-dark text-white text-center py-3">
+    <footer id="contact"
+            class="bg-dark text-white text-center py-4">
         <div class="container">
-            <p>Contact me at: feranmi_ige@example.com | GitHub: github.com/Feranmi Ige</p>
-            <p>&copy; 2025 Feranmi Ige. All rights reserved.</p>
+
+            <h5>Let's Connect!</h5>
+
+            <p>
+                I'm always interested in learning,
+                improving my skills, and exploring
+                new opportunities in technology.
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/rrc-intake-ddivya3"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-white">
+                    My GitHub Profile
+                </a>
+            </p>
+
+            <p class="mb-0">
+                &copy; 2026 Divya. All rights reserved.
+            </p>
+
         </div>
     </footer>
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
